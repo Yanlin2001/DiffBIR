@@ -2,7 +2,7 @@ dataset:
   target: dataset.realesrgan.RealESRGANDataset
   params:
     # Path to the file list.
-    file_list: 
+    file_list: /kaggle/working/DiffBIR/inputs/MRI/train.list
     out_size: 256
     crop_type: center
 
